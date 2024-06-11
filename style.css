@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.getDataForm {
+    padding: 20px;  
+    margin-top: 135px;
+    background-color: white;
+    color: black;
+    height: 350px;
+    width: 350px;
+    border-radius: 5%;
+}
+#heading {
+    font-size: 25px;
+    text-align: center;
+}
+#form1 {
+    margin: 25px;
+}
+#amt {
+    height: 25px;
+    width: 100%;
+    margin: 3px;
+    border-radius: 5%;
+}
+.from-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.from-selector, .to-selector {
+    border: 1px solid black;
+    border-radius: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.from-dropdown, .to-dropdown {
+    margin: 15px;
+    font-size: 15px;
+}
+.sel {
+    border: none;
+    outline: none;
+    height: 22px;
+    width: 55px;
+    padding: 2px;
+}
+
+#btn {
+    position: absolute;
+    top: 375px;
+    left: 555px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+#msg {
+    text-align: center;
+    color: red;
+}
